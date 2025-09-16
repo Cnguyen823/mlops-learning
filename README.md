@@ -30,3 +30,13 @@
 - [x] Learn about k-fold cross-validation and LOOCV.
 - [x] Implement cross-validation on the Iris dataset. See iris_crossval.py.
 
+## Day 4 – KNN, Logistic Regression, and Random Forest Comparison
+
+- [x] Reviewed Day 3 concepts and code
+- [x] Implemented K-Nearest Neighbors (KNN):
+- [x] Implemented Logistic Regression:
+- [x] Implemented Random Forest (optional/comparison):
+- [x] Compared models using cross-validation:
+- [x] Calculated accuracy, precision, recall, or RMSE
+- [x] Decided which model works best for the dataset. See iris_model_comparison.py
+
