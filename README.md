@@ -11,7 +11,7 @@
 - [x] Upgraded pip inside venv and installed packages:
   - `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `fastapi`, `uvicorn`
 
-### Day 1 - Project Initialization
+## Day 1 - Project Initialization
 - [x] Created `README.md` with project goals and plan
 - [x] Initialized Git repository and made first commit
 - [x] Connected local repo to GitHub and successfully pushed
