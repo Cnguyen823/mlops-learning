@@ -11,18 +11,15 @@
 - [x] Upgraded pip inside venv and installed packages:
   - `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `fastapi`, `uvicorn`
 
-### Project Initialization
+### Day 1 - Project Initialization
 - [x] Created `README.md` with project goals and plan
 - [x] Initialized Git repository and made first commit
 - [x] Connected local repo to GitHub and successfully pushed
 - [x] Repo visible in browser: [GitHub Repository](https://github.com/Cnguyen823/mlops-learning)
 
-### Next Steps (Monday)
-- [ ] Start ML refresher: train a simple Logistic Regression model
-- [ ] Practice loading datasets, preprocessing, and basic training
-- [ ] Document workflow in GitHub repo
+## Day 2 – First ML Model
 
-### Notes / Reflections
-- Virtual environments keep projects isolated and reproducible
-- Git + GitHub workflow established for version control
-- Ready to start hands-on ML and MLOps practice tomorrow
+- [x] Implemented Logistic Regression on the Iris dataset.
+- [x] Split data into train/test (80/20).
+- [x] Achieved accuracy: ~97%.
+- [x] Learned how to train, predict, and evaluate a simple classification model.
