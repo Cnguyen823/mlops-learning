@@ -22,4 +22,11 @@
 - [x] Implemented Logistic Regression on the Iris dataset.
 - [x] Split data into train/test (80/20).
 - [x] Achieved accuracy: ~97%.
-- [x] Learned how to train, predict, and evaluate a simple classification model.
+- [x] Learned how to train, predict, and evaluate a simple classification model. See iris_model.py.
+
+## Day 3 – Cross-Validation & Reliable Model Evaluation
+
+- [x] Understand why single train/test splits can be misleading.
+- [x] Learn about k-fold cross-validation and LOOCV.
+- [x] Implement cross-validation on the Iris dataset. See iris_crossval.py.
+
