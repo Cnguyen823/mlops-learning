@@ -108,5 +108,5 @@ A confusion matrix shows **how well a classifier performs** by comparing predict
 
 - [x] Calculated Accuracy, Precision, Recall, and F1 Score manually for both models
 
-- [x] Printed metrics results for KNN and Random Forest
+- [x] Printed metrics results for KNN and Random Forest. See confusion_matrix.py.
 
