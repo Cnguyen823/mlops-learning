@@ -40,8 +40,8 @@
 - [x] Calculated accuracy, precision, recall, or RMSE
 - [x] Decided which model works best for the dataset. See iris_model_comparison.py
 
-# Day 5 — Confusion Matrices (KNN & Random Forest)
-## What is a Confusion Matrix?
+## Day 5 — Confusion Matrices (KNN & Random Forest)
+### What is a Confusion Matrix?
 A confusion matrix shows **how well a classifier performs** by comparing predicted labels with actual labels.
 
 |               | Predicted Positive | Predicted Negative |
@@ -51,37 +51,37 @@ A confusion matrix shows **how well a classifier performs** by comparing predict
 
 ---
 
-## Key Metrics and Their Meaning
+### Key Metrics and Their Meaning
 
-### 1. Accuracy
+#### 1. Accuracy
 **Formula:** (TP + TN) / (TP + TN + FP + FN)  
 **Meaning:** Overall correctness of the model. Tells you what fraction of predictions are right.  
 ⚠️ Can be misleading if the dataset is imbalanced (e.g., 95% “No” and 5% “Yes”).
 
 ---
 
-### 2. Precision
+#### 2. Precision
 **Formula:** TP / (TP + FP)  
 **Meaning:** Out of everything the model predicted as **Positive**, how many were actually positive?  
 ⚠️ High precision = fewer false alarms.
 
 ---
 
-### 3. Recall (a.k.a. Sensitivity or True Positive Rate)
+#### 3. Recall (a.k.a. Sensitivity or True Positive Rate)
 **Formula:** TP / (TP + FN)  
 **Meaning:** Out of all the actual positives, how many did the model correctly detect?  
 ⚠️ High recall = the model misses fewer positives.
 
 ---
 
-### 4. F1 Score
+#### 4. F1 Score
 **Formula:** 2 × (Precision × Recall) / (Precision + Recall)  
 **Meaning:** The balance between **precision** and **recall**.  
 ⚠️ Useful when you want a single score and the data is imbalanced.
 
 ---
 
-### Models Used
+#### Models Used
 1. **K-Nearest Neighbors (KNN)**
    - Classification is based on the majority vote of `k` neighbors.  
    - Simple and easy to interpret.  
@@ -93,7 +93,7 @@ A confusion matrix shows **how well a classifier performs** by comparing predict
 
 ---
 
-### Why Confusion Matrix?
+#### Why Confusion Matrix?
 - Lets you **see specific errors** instead of only accuracy.  
 - Example: tells you if the model makes too many false positives (FP) vs false negatives (FN).  
 - Critical in real-world tasks (medical tests, fraud detection, etc.).
