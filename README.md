@@ -98,3 +98,13 @@ A confusion matrix shows **how well a classifier performs** by comparing predict
 - Example: tells you if the model makes too many false positives (FP) vs false negatives (FN).  
 - Critical in real-world tasks (medical tests, fraud detection, etc.).
 
+- [x] Generated confusion matrices for KNN and Random Forest (confusion_matrix(y_test, y_pred))
+
+- [x] Visualized confusion matrices using ConfusionMatrixDisplay(cm).plot() with titles and plt.show()
+
+- [x] Implemented metrics calculation function (calculate_metrics(cm))
+
+- [x] Calculated Accuracy, Precision, Recall, and F1 Score manually for both models
+
+- [x] Printed metrics results for KNN and Random Forest
+
